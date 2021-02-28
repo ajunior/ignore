@@ -3,7 +3,7 @@
 ```.gitignore``` file to your local git repositories.
 
 # Getting started
-You can download [binaries](https://github.com/ajunior/ignore/releases) for Linux, macOS (x86-64 and M1), and Windows, 
+You can download [binaries](https://github.com/ajunior/ignore/releases) for Linux, macOS (x86_64 and ARM_M1), and Windows, 
 but I also intend to make it to be installed through some package managers as soon as possible.
 
 ## Instalation 
@@ -13,7 +13,7 @@ Open the terminal and follow the steps:
 
 ```bash
 # Step 1 - Download the binary
-$ wget https://github.com/ajunior/ignore/releases/download/v0.1.0/ignore_macos_x64.zip
+$ wget https://github.com/ajunior/ignore/releases/download/v0.1.0/ignore_macos_x86_64.zip
 
 # Unzip
 $ unzip ignore_macos_x64.zip
@@ -28,7 +28,7 @@ $ sudo mv ignore /usr/local/bin
 For Linux, download the ```ignore_linux_x64.zip``` file.
 
 ### Windows
-[Download](https://github.com/ajunior/ignore/releases/download/v0.1.0/ignore_win10_x64.zip) and unzip it to a folder 
+[Download](https://github.com/ajunior/ignore/releases/download/v0.1.0/ignore_win10_x86_64.zip) and unzip it to a folder 
 named ```ignore``` into your user directory (for example, ```C:\Users\username\ignore```), then add that directory
 into your path variable.
 
