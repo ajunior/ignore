@@ -144,7 +144,6 @@ func main() {
 		templateSet := set{}
 		for _, template := range templates {
 			template := strings.ToLower(template)
-			fmt.Println(template)
 			templateSet.add(template)
 		}
 
